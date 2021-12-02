@@ -1,0 +1,15 @@
+//css컴파일하는 목적:html에서 css파일 호출할려고
+//scss파일은 브라우저가 인식을 못함,,css파일만 인식가능
+//common.scss파일은 html에서 호출하지않음
+//css로 컴파일 할 필요 없음
+
+@charset "utf-8";
+/* common.css */
+*{box-sizing: border-box;}
+body{margin:0;}
+h1,h2,h3,h4,h5,h6,p{margin:0;}
+a{text-decoration:none; color:#222;}
+img{vertical-align:middle;}
+*{box-sizing: border-box;}
+table{border-collapse: collapse;}
+ul,li{list-style-type: none; padding:0; margin:0;}
